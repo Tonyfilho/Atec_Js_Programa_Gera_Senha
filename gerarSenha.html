@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="text/javascript" src="senha.js"></script>
+	<title>SistemaDeAtendimento</title>
+	<link rel="stylesheet" type="text/css" href="styleGerar.css">
+</head>
+<body>
+	<header id="cabeca">
+     <h2>Senha de Atendimento</h2>
+	</header>
+
+		<div class="container">
+			<div class="atendimento">
+				<div class="pai">
+					<div id="senha" > Balcão 1 G- A </div>
+					<div id="senha1" >Balcão 2 G- A </div>
+					<div id="senha2" >Balcão 3 G- A</div>
+					<div id="senha3" >Balcão 4 G- A</div>
+				</div>
+				<div class="pai">
+					<div class="senha_balcao" onclick="botaoAtendimento('senha')">Balcao 1</div>
+					<div class="senha_balcao" onclick="botaoAtendimento('senha1')">Balcao 2</div>
+					<div class="senha_balcao" onclick="botaoAtendimento('senha2')">Balcao 3</div>
+					<div class="senha_balcao" onclick="botaoAtendimento('senha3')">Balcao 4</div>
+				</div>
+				
+			</div>
+	
+			<div class = "geraSenha">
+				<div class="pai">
+					<div id ="senha_prio" >P- A00</div>
+					<div id ="senha_geral" >G- A00</div>
+				</div>
+				<div class="pai">
+					<div id="senha_prioBt" class="senha_balcao" value="1" onclick="botaoPrioridade()" >SENHA PRIORITÁRIA</div>
+					<div id="senha_geralBt" class="senha_balcao" value="1" onclick="botaoGeral()" >SENHA GERAL</div>
+				</div>
+				
+			</div>
+		</div>
+
+	<footer id="rodape">
+		<ul>
+			<li><a href="www.zuca.pt"></a> Zuca Senhas </li>
+		</ul>
+	</footer>
+</body>
+</html>

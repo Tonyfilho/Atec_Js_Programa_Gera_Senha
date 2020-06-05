@@ -1,0 +1,151 @@
+ /* CSS-------  */
+body{
+ max-width: auto;
+ 
+
+}
+ #cabeca {
+ width: auto;
+ background-image: url(header.jpg) ;
+ background-size: cover;
+ height: auto;
+ font-size: 2rem;
+ color: azure;
+ 
+
+}
+#cabeca h2 {
+   text-align: center;
+   padding: 3% ;
+   margin: 0;
+  
+
+}
+
+.container
+{
+	width: 90%;
+	display:flex;
+	margin-left:10%;
+	margin-top:8%;
+	height: auto;
+	margin: 5% auto;
+	
+
+}
+
+.atendimento
+{
+	
+	border: 2px solid black;
+	padding-bottom: 3%;
+	background-image: url(body.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	border-width: 2px;
+	margin-left:10%;
+	max-width: 40%;
+	min-width: auto;
+	padding: 4%;
+
+}
+.geraSenha {
+	border: 2px solid black;
+	padding-bottom: 3%;
+	background-image: url(body.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	border-width: 2px;
+	margin:auto;
+	max-width: 40%;
+	min-width: auto;
+	height: 280px;
+	padding: 4%;
+
+
+}
+
+.pai
+{	
+	display:flex;
+	padding-top:50px;
+	padding-left: 20px;
+	width: auto;
+
+
+}
+
+#senha , #senha1, #senha2, #senha3
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	padding-top: 9%;
+
+}
+
+.senha_balcao
+{	
+	background-color: lightgreen;
+	margin-right: 15px;
+	border:2px solid white;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	color:white;
+	padding-top: 10%;
+
+}
+
+#senha_prio
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10%;
+
+}
+
+
+#senha_geral
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10%;
+	
+
+}
+
+#rodape {
+    margin-top: 8%;
+	width: auto;
+	background-image: url(header.jpg);
+	height: 50px;
+	font-size: 1 rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;	
+	color: azure;
+	padding: 0.7%;
+}
+#rodape ul li {
+	text-align: center;
+	
+}
+#rodape ul li a {	
+	
+	text-decoration: none;
+
+}
